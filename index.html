@@ -22,7 +22,6 @@
                 margin: 0;
                 background: #1a1a1b;
                 overflow: hidden;
-                cursor: crosshair;
                 display: flex;
                 justify-content: center;
                 align-items: center;
@@ -31,9 +30,20 @@
                 color: #eee;
                 user-select: none;
             }
+            #content {
+                position: relative;
+                display: block;
+            }
+            p {display: block;}
+            a {color: #eee; text-decoration: none; cursor: pointer;}
+            a:hover {color: yellow;}
         </style>
     </head>
     <body>
-        <p>antisafari.com</p>
-    </body>
+        <div id="content">
+            <p>antisafari.com</p>
+            <p><a href="mailto:admin@antisafari.com">admin@antisafari.com</a></p>
+            <p><a href="http://instagram.com/_u/anti_safari/">instagram.com/anti_safari</a></p>
+        </div>
+   </body>
 </html>
